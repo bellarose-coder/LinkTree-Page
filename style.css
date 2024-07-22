@@ -1,0 +1,44 @@
+body {
+    margin: 1;
+    padding: 0;
+    text-align: center;
+    color: rgb(60, 60, 60);
+    font-family: Inter, sans-serif;
+      background-color: white;
+  }
+  
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  img {
+    align-self: center;
+    margin-top: 50px;
+    border-radius: 75px;
+  }
+  
+  ul li a {
+    display: inline-block;
+    padding: 18px 250px; /* ajustar espaçamento */
+    min-width: 120px;
+    background-color: rgb(180, 180, 180)
+  ; /* cor de fundo do botão */
+    color: black; /* cor do texto */
+    border-radius: 5px; /* borda arredondada */
+    text-decoration: none; /* remover sublinhado dos links */
+    text-align: center;
+    margin: 7px; /* espaçamento entre os botões */
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 28px;
+  }
+  
+  ul li a:hover {
+    background-color: #E0E0E0;
+    transition: background-color 0.5s ease;
+      transform: translateY(-3px);
+    }
